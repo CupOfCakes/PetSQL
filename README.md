@@ -12,7 +12,7 @@ Uma aplicação .NET para gerenciamento de clientes de um petshop/veterinária, 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-- .NET (versão 8.0)
+- .NET 8.0
 - C#
 - SQL Server
 - Windows Forms 
@@ -28,12 +28,10 @@ Uma aplicação .NET para gerenciamento de clientes de um petshop/veterinária, 
 2. Restaure os pacotes e abra no Visual Studio:
    dotnet restore
 
-3. Configure a connection string
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=PetSQL;Trusted_Connection=True;"
-  }
+3. Configure a connection string no arquivo Form1.cs (linha 13)
+  string connectionString = "Data Source=localhost\\SQLEXPRESS;Initial catalog=projeto_veterinario;Integrated Security=True";
 
-4. Rode o projeto com:
+5. Rode o projeto com:
    dotnet run
 
 
