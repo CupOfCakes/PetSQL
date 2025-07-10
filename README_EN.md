@@ -1,7 +1,7 @@
 # PetSQL 🐾
 A .NET application for managing petshop/veterinary clients, with a user-friendly interface and SQL Server database.
 
-> ⚠️ **Note**: The game is fully written in **Portuguese (Brazilian)**.
+> ⚠️ **Note**: The project is fully written in **Portuguese (Brazilian)**.
 
 ---
 
